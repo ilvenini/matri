@@ -20,10 +20,6 @@ else:
     st.warning("ID non valido o mancante. Contatta l'amministratore.")
 
 
-if st.button("Torna alla Home"):
-    st.experimental_set_query_params(page="home")
-    st.experimental_rerun()
-
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
