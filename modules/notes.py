@@ -1,7 +1,7 @@
 import streamlit as st
 from modules import utils
+import requests
     
-
 # Pagina 1: Personalizzata per ogni utente
 def app():
     set_font("Delius Swash Caps")
@@ -16,13 +16,34 @@ def get_query_params():
 def app():
     utils.set_font("Delius Swash Caps")
     #st.write("## Matrimonio di Annamaria e Andrea")
-
     
     user_id = get_query_params()
     if user_id and user_id in USER_DATA:
         st.write(USER_DATA[user_id]["text"], unsafe_allow_html=True)
     else:
         st.write(USER_DATA['all']["text"], unsafe_allow_html=True)
+
+    TOKEN = "7725533579:AAGsQhhyinjOrzflm6SjqzGQpklJztApCdQ"  # Ottienilo da BotFather
+    CHAT_ID = "matrichat"  # ID della tua chat o gruppo
+    
+    def invia_telegram(nome, email, messaggio):
+        testo = f"📩 **Nuovo Messaggio!**\n👤 Nome: {nome}\n📝 Messaggio: {messaggio}"
+        url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+        requests.post(url, data={"chat_id": CHAT_ID, "text": testo, "parse_mode": "Markdown"})
+    
+    # Form Streamlit
+    st.title("Contattaci 📩")
+    with st.form("form_contatto"):
+        nome = st.text_input("Nome")
+        messaggio = st.text_area("Messaggio")
+        submit = st.form_submit_button("Invia")
+    
+    if submit:
+        if nome and email and messaggio:
+            invia_telegram(nome, messaggio)
+            st.success("Messaggio inviato su Telegram!")
+        else:
+            st.warning("Compila tutti i campi!")
 
     
 # Dizionario con messaggi e immagini personalizzate
