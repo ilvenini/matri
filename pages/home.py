@@ -7,7 +7,7 @@ st.image("img/savethedate.png")
 #st.write("## Matrimonio di Annamaria e Andrea")
 
 
-user_id = get_query_params()
+user_id = utils.get_query_params()
 if user_id and user_id in USER_DATA:
     st.write(USER_DATA[user_id]["text"], unsafe_allow_html=True)
 else:
