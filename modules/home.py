@@ -37,7 +37,7 @@ USER_DATA = {
     Non vediamo l’ora di condividere questa giornata con voi!"},
     
     "michele": {"text": "Cari Michele e Laura,<br>\
-    Siamo felicissimi di invitarvi al nostro matrimonio! 💍✨\
+    Siamo felicissimi di invitarvi al nostro matrimonio! 💍✨<br>\
     Ci sposeremo il 15 giugno 2025 e non vediamo l’ora di festeggiare con voi.<br>\
     Il rito civile sarà celebrato alle 11:00 presso il Comune di Passirano.<br>\
     Dopo la cerimonia, ci sposteremo alla cantina Bersi Serlini di Provaglio d'Iseo, dove brinderemo e festeggeremo insieme questa giornata speciale.<br>\
