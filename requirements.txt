@@ -2,3 +2,4 @@ streamlit
 utils
 streamlit_folium
 folium
+requests
