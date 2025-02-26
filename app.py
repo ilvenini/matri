@@ -4,9 +4,9 @@ import streamlit as st
 
 
 # Pagine
-from modules import home
-from modules import location
-from modules import notes
+from pages import home
+from pages import location
+from pages import notes
 
 # Menu di navigazione
 PAGES = {
