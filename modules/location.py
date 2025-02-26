@@ -15,7 +15,7 @@ def app():
     #st.write("## Matrimonio di Annamaria e Andrea")
 
     
-    st.image("bersi1.png")
+    st.image("img/bersi1.png")
     
     
     user_id = get_query_params()
@@ -24,14 +24,14 @@ def app():
     else:
         st.write(USER_DATA['all']["text"], unsafe_allow_html=True)
     
-    st.image("bersi2.png")
+    st.image("img/bersi2.png")
     
     if user_id and user_id in USER_DATA:
         st.write(USER_DATA[user_id]["text2"], unsafe_allow_html=True)
     else:
         st.write(USER_DATA['all']["text2"], unsafe_allow_html=True)
   
-    st.image("bersi3.png")
+    st.image("img/bersi3.png")
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
