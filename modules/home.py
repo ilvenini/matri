@@ -10,7 +10,7 @@ def get_query_params():
 # Pagina 1: Personalizzata per ogni utente
 def app():
     utils.set_font("Delius Swash Caps")
-    st.image("savethedate.png")
+    st.image("img/savethedate.png")
     #st.write("## Matrimonio di Annamaria e Andrea")
 
     
