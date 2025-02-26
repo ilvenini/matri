@@ -33,6 +33,12 @@ def app():
   
     st.image("img/bersi3.png")
 
+
+    maps_url = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.349865788649!2d-99.13320999999999!3d19.4326071"
+
+    st.components.v1.iframe(maps_url, width=700, height=500)
+
+
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
     "all": {"text": "Il ricevimento si terrà nell'incantevole cantina **Bersi Serlini**, situata nel cuore della Franciacorta a **Provaglio d\'Iseo** (BS).",
