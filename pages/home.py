@@ -7,23 +7,22 @@ def get_query_params():
     query_params = st.query_params
     return query_params.get("id", None)
 
-# Pagina 1: Personalizzata per ogni utente
-def app():
-    utils.set_font("Delius Swash Caps")
-    st.image("img/savethedate.png")
-    #st.write("## Matrimonio di Annamaria e Andrea")
 
-    
-    user_id = get_query_params()
-    if user_id and user_id in USER_DATA:
-        st.write(USER_DATA[user_id]["text"], unsafe_allow_html=True)
-    else:
-        st.warning("ID non valido o mancante. Contatta l'amministratore.")
+utils.set_font("Delius Swash Caps")
+st.image("img/savethedate.png")
+#st.write("## Matrimonio di Annamaria e Andrea")
 
 
-    if st.button("Torna alla Home"):
-        st.experimental_set_query_params(page="home")
-        st.experimental_rerun()
+user_id = get_query_params()
+if user_id and user_id in USER_DATA:
+    st.write(USER_DATA[user_id]["text"], unsafe_allow_html=True)
+else:
+    st.warning("ID non valido o mancante. Contatta l'amministratore.")
+
+
+if st.button("Torna alla Home"):
+    st.experimental_set_query_params(page="home")
+    st.experimental_rerun()
 
 
 # Dizionario con messaggi e immagini personalizzate
