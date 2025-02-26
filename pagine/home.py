@@ -23,6 +23,11 @@ def app():
     st.page_link("pages/location.py", label="Vai alla pagina", icon="➡️")
 
 
+    if st.button("Torna alla Home"):
+        st.experimental_set_query_params(page="home")
+        st.experimental_rerun()
+
+
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
     "pietro": {"text": "Ciao **Zione bello!**<br><br>\
