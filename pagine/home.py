@@ -20,7 +20,7 @@ def app():
     else:
         st.warning("ID non valido o mancante. Contatta l'amministratore.")
 
-    st.page_link("pagine/mia_pagina.py", label="Vai alla pagina", icon="➡️")
+    st.page_link("pagine/location.py", label="Vai alla pagina", icon="➡️")
 
     if st.button("Vai alla seconda pagina"):
         st.switch_page("pagine/location.py")
