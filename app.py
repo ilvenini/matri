@@ -3,6 +3,10 @@
 import streamlit as st
 
 
+# Pagine
+from pagine import home
+from pagine import location
+from pagine import notes
 
 # Menu di navigazione
 PAGES = {
