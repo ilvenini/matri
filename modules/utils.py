@@ -17,3 +17,9 @@ def set_font(font_name):
         </style>
     """, unsafe_allow_html=True)
 
+
+# Funzione per ottenere il parametro "id" dall'URL
+def get_query_params():
+    query_params = st.query_params
+    return query_params.get("id", None)
+
