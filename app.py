@@ -26,19 +26,3 @@ import os
 
 st.set_page_config(page_title="App", page_icon="🌟", layout="wide")
 
-# Dizionario per assegnare nomi leggibili ai file
-pagine = {
-    "🏠 Ciao!": "home.py",
-    "🧭 Posizione": "location.py",
-    "🎁 Conferma": "notes.py"
-}
-
-
-# Creare un menu personalizzato
-pagina_scelta = st.sidebar.selectbox("📂 Navigazione", list(pagine.keys()))
-
-# Eseguire il file corrispondente
-file_pagina = f"pages/{pagine[pagina_scelta]}"
-with open(file_pagina, "r", encoding="utf-8") as f:
-    exec(f.read())
-
