@@ -33,6 +33,7 @@ pagine = {
     "🎁 Conferma": "_notes.py"
 }
 
+
 # Creare un menu personalizzato
 pagina_scelta = st.sidebar.selectbox("📂 Navigazione", list(pagine.keys()))
 
