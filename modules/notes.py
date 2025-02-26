@@ -24,7 +24,7 @@ def app():
         st.write(USER_DATA['all']["text"], unsafe_allow_html=True)
 
     TOKEN = "7725533579:AAGsQhhyinjOrzflm6SjqzGQpklJztApCdQ"  # Ottienilo da BotFather
-    CHAT_ID = "matrichat_bot"  # ID della tua chat o gruppo
+    CHAT_ID = "6873425662"  # ID della tua chat o gruppo
     
     def invia_telegram(nome, messaggio):
         testo = f"📩 **Nuovo Messaggio!**\n👤 Nome: {nome}\n📝 Messaggio: {messaggio}"
