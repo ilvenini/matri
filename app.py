@@ -28,9 +28,9 @@ st.set_page_config(page_title="App", page_icon="🌟", layout="wide")
 
 # Dizionario per assegnare nomi leggibili ai file
 pagine = {
-    "🏠 Ciao!": home,
-    "🧭 Posizione": location,
-    "🎁 Conferma": notes
+    "🏠 Ciao!": "home.py",
+    "🧭 Posizione": "location.py",
+    "🎁 Conferma": "notes.py"
 }
 
 # Creare un menu personalizzato
