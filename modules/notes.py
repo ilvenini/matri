@@ -39,7 +39,7 @@ def app():
         submit = st.form_submit_button("Invia")
     
     if submit:
-        if nome and email and messaggio:
+        if nome and messaggio:
             invia_telegram(nome, messaggio)
             st.success("Messaggio inviato su Telegram!")
         else:
