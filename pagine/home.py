@@ -21,7 +21,6 @@ def app():
         st.warning("ID non valido o mancante. Contatta l'amministratore.")
 
 
-
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
     "pietro": {"text": "Ciao **Zione bello!**<br><br>\
