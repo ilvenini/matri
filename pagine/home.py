@@ -20,7 +20,7 @@ def app():
     else:
         st.warning("ID non valido o mancante. Contatta l'amministratore.")
 
-    st.page_link("pagine/location.py", label="Vai alla pagina", icon="➡️")
+    st.page_link("pages/location.py", label="Vai alla pagina", icon="➡️")
 
 
 # Dizionario con messaggi e immagini personalizzate
