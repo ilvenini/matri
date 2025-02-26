@@ -41,6 +41,6 @@ USER_DATA = {
     Ci sposeremo il **15 giugno 2025** e non vediamo l’ora di festeggiare.<br><br>\
     Il rito civile sarà celebrato alle **11:00** presso il Comune di Passirano.<br>\
     Dopo la cerimonia, ci sposteremo alla cantina Bersi Serlini di Provaglio d'Iseo, dove brinderemo e festeggeremo insieme questa giornata speciale.<br>\
-    Speriamo di avervi con noi!<br>\
-Nelle altre pagine, trovate qualche info in più."},
+    Speriamo di avervi con noi!<br><br>\
+Nelle altre pagine trovate qualche info in più."},
 }
