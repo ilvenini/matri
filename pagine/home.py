@@ -22,9 +22,6 @@ def app():
 
     st.page_link("pagine/location.py", label="Vai alla pagina", icon="➡️")
 
-    if st.button("Vai alla seconda pagina"):
-        st.switch_page("pagine/location.py")
-
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
