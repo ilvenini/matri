@@ -17,7 +17,7 @@ PAGES = {
 
 
 st.sidebar.title("Navigazione")
-selection = st.sidebar.radio("Seleziona una pagina:", list(PAGES.keys()))
+selection = st.sidebar.selectbox("Seleziona una pagina:", list(PAGES.keys()))
 
 
 
