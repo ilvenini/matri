@@ -31,10 +31,12 @@ USER_DATA = {
     Dopodichè, alle ore **12.30** ci sposteremo nella Cantina Bersi Serlini a **Provaglio d\'Iseo**, dove ci sarà da mangiare, bere e festeggiare in abbondanza fino alle ore **21.00**.<br><br>\
     Non vediamo l'ora di goderci la bellissima giornata con te e famiglia!"},
     
-    "annamaria": {"text": "Dopo il 'sì', vogliamo festeggiare insieme a voi con una giornata speciale all’insegna del buon cibo, dell’ottimo vino e della compagnia migliore!<br><br>\
-    Vi aspettiamo alle **12:30** per dare inizio ai festeggiamenti, che proseguiranno fino alle ore **21:00**, in una splendida cantina nel cuore della Franciacorta.<br><br>\
-    Brinderemo con calici di vino pregiato, immersi in un’atmosfera incantevole, tra risate, brindisi e momenti indimenticabili.<br><br>\
-    Non vediamo l’ora di condividere questa giornata con voi!"},
+    "michele": {"text": "Cari Michele e Laura,<br>\
+Siamo felicissimi di invitarvi al nostro matrimonio! 💍✨\
+Ci sposeremo il 15 giugno 2025 e non vediamo l’ora di festeggiare con voi.<br>\
+Il rito civile sarà celebrato alle 11:00 presso il Comune di Passirano.<br>\
+Dopo la cerimonia, ci sposteremo alla cantina Bersi Serlini di Provaglio d'Iseo, dove brinderemo e festeggeremo insieme questa giornata speciale.<br>\
+Speriamo di avervi con noi! ❤️"},
     
     "user3": {"text": "Ciao Luca! Ecco il tuo contenuto."}
 }
