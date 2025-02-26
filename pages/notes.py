@@ -2,12 +2,8 @@ import streamlit as st
 from modules import utils
 import requests
     
-
 utils.set_font("Delius Swash Caps")
 
-user_id = utils.get_query_params()
-
-utils.set_font("Delius Swash Caps")
 #st.write("## Matrimonio di Annamaria e Andrea")
 
 
@@ -19,7 +15,7 @@ USER_DATA = {
     iban: it93f0301503200000003641112"},
 }
 
-user_id = get_query_params()
+user_id = utils.get_query_params()
 if user_id and user_id in USER_DATA:
     st.write(USER_DATA[user_id]["text"], unsafe_allow_html=True)
 else:
