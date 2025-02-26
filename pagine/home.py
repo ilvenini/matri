@@ -20,6 +20,11 @@ def app():
     else:
         st.warning("ID non valido o mancante. Contatta l'amministratore.")
 
+    st.page_link("pages/mia_pagina.py", label="Vai alla pagina", icon="➡️")
+    
+    if st.button("Vai alla seconda pagina"):
+        st.switch_page("pagine/location.py")
+
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
