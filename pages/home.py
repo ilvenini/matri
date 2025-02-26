@@ -7,14 +7,6 @@ st.image("img/savethedate.png")
 #st.write("## Matrimonio di Annamaria e Andrea")
 
 
-user_id = utils.get_query_params()
-if user_id and user_id in USER_DATA:
-    st.write(USER_DATA[user_id]["text"], unsafe_allow_html=True)
-else:
-    st.warning("ID non valido o mancante. Contatta l'amministratore.")
-
-
-
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
     "pietro": {"text": "Ciao **Zione bello!**<br><br>\
@@ -38,3 +30,12 @@ USER_DATA = {
     Speriamo di avervi con noi!<br><br>\
 Nelle altre pagine trovate qualche info in più."},
 }
+
+
+
+user_id = utils.get_query_params()
+if user_id and user_id in USER_DATA:
+    st.write(USER_DATA[user_id]["text"], unsafe_allow_html=True)
+else:
+    st.warning("ID non valido o mancante. Contatta l'amministratore.")
+
