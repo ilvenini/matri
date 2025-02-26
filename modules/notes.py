@@ -26,7 +26,7 @@ def app():
     TOKEN = "7725533579:AAGsQhhyinjOrzflm6SjqzGQpklJztApCdQ"  # Ottienilo da BotFather
     CHAT_ID = "matrichat"  # ID della tua chat o gruppo
     
-    def invia_telegram(nome, email, messaggio):
+    def invia_telegram(nome, messaggio):
         testo = f"📩 **Nuovo Messaggio!**\n👤 Nome: {nome}\n📝 Messaggio: {messaggio}"
         url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
         requests.post(url, data={"chat_id": CHAT_ID, "text": testo, "parse_mode": "Markdown"})
