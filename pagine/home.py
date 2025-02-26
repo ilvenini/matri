@@ -20,8 +20,6 @@ def app():
     else:
         st.warning("ID non valido o mancante. Contatta l'amministratore.")
 
-    st.page_link("pages/location.py", label="Vai alla pagina", icon="➡️")
-
 
     if st.button("Torna alla Home"):
         st.experimental_set_query_params(page="home")
