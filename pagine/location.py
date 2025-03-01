@@ -1,21 +1,15 @@
 import streamlit as st
 from modules import utils
 
-# Funzione per ottenere il parametro "id" dall'URL
-def get_query_params():
-    query_params = st.query_params
-    return query_params.get("id", None)
-
 def app():
     utils.set_font("Delius Swash Caps")
     #st.image("savethedate.png")
     #st.write("## Matrimonio di Annamaria e Andrea")
 
-    
     st.image("img/bersi1.png")
     
+    user_id = utils.get_query_params()
     
-    user_id = get_query_params()
     if user_id and user_id in USER_DATA:
         st.write(USER_DATA[user_id]["text"], unsafe_allow_html=True)
     else:
