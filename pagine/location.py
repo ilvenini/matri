@@ -7,9 +7,9 @@ def app():
     #st.write("## Matrimonio di Annamaria e Andrea")
     user_id = utils.get_query_params()
 
-    st.image("img/comune.jpg", width=1000)
-
     st.write(USER_DATA['all']["text1"], unsafe_allow_html=True)
+
+    st.image("img/comune.jpg", width=1000)
 
     maps_url1 = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d829.5008035747104!2d10.063414284393087!3d45.59822966865703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47816fef53b5a2a9%3A0x23d07dd3c0e21666!2sPiazza%20Europa%2C%2016%2C%2025050%20Passirano%20BS!5e0!3m2!1sen!2sit!4v1740848655085!5m2!1sen!2sit"
 
