@@ -38,7 +38,7 @@ def app():
         else:
             st.warning("Messaggio vuoto")
 
-    
+
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
     "all": {"text": "Per permetterci di organizzare al meglio la festa, vi chiediamo di **confermare la vostra presenza entro il 15 maggio**!<br><br>\
