@@ -34,14 +34,14 @@ def app():
     # Form Streamlit
     st.title("Contattaci 📩")
     with st.form("form_contatto"):
-        nome = st.text_input("Nome", value=user_id)
+        nome = st.code("Nome", value=user_id, language="markdown")
         messaggio = st.text_area("Messaggio")
         submit = st.form_submit_button("Invia")
     
     if submit:
         if nome and messaggio:
             invia_telegram(nome, messaggio)
-            st.success("Messaggio inviato su Telegram!")
+            st.success("Messaggio inviato!")
         else:
             st.warning("Compila tutti i campi!")
 
