@@ -13,7 +13,9 @@ def app():
         st.write(USER_DATA['all']["text"], unsafe_allow_html=True)
 
     TOKEN = st.secrets["BOT_TOKEN"] # BotFather
-    CHAT_ID = st.secrets["CHAT_ID"]
+    CHAT_ID_ANDREA = st.secrets["CHAT_ID_ANDREA"]
+    CHAT_ID_ANNA = st.secrets["CHAT_ID_ANNA"]
+    
     
     def invia_telegram(nome, messaggio):
         testo = f"📩 **Nuovo Messaggio!**\n👤 Nome: {nome}\n📝 Messaggio: {messaggio}"
