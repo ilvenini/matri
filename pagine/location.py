@@ -7,13 +7,7 @@ def app():
     #st.write("## Matrimonio di Annamaria e Andrea")
     user_id = utils.get_query_params()
 
-    # usa iframe perchè immagine è piccola
-    st.markdown(
-    f"""
-    <iframe src="img/comune.jpg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    """,
-    unsafe_allow_html=True
-    )
+    st.image("img/comune.jpg", width="100%")
 
     st.write(USER_DATA['all']["text1"], unsafe_allow_html=True)
 
