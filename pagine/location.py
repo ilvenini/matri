@@ -21,7 +21,7 @@ def app():
         unsafe_allow_html=True
     )
 
-    st.image("img/bersi1.png")
+    #st.image("img/bersi1.png")
     
     st.write(USER_DATA['all']["text2"], unsafe_allow_html=True)
     
