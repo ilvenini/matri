@@ -24,14 +24,14 @@ def app():
     #st.title("Contattaci 📩")
     with st.form("form_contatto"):
         #nome = st.text_input("Nome", value=user_id)
-        messaggio = st.text_area("Messaggio")
+        messaggio = st.text_area("Scrivici un messaggio!")
         submit = st.form_submit_button("Invia")
     
     if submit:
         #if nome and messaggio:
         if messaggio:
             invia_telegram(user_id, messaggio)
-            st.success("Messaggio inviato")
+            st.success("Messaggio inviato, grazie!")
         else:
             st.warning("Messaggio vuoto")
 
