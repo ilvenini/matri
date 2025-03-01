@@ -14,8 +14,6 @@ def app():
 
     st.write(USER_DATA['all']["text2"], unsafe_allow_html=True)
 
-    st.divider()
-
     TOKEN = st.secrets["BOT_TOKEN"] # BotFather
     CHAT_ID_ANDREA = st.secrets["CHAT_ID_ANDREA"]
     CHAT_ID_ANNA = st.secrets["CHAT_ID_ANNA"]
