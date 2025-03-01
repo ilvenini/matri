@@ -42,7 +42,6 @@ def app():
         unsafe_allow_html=True
     )
 
-
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
     "all": {"text1": "La cerimonia si terrà nella sala civica del **Comune di Passirano** alle ore **11.30**.<br>",
