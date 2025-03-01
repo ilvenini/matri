@@ -27,8 +27,6 @@ def app():
         requests.post(url, data={"chat_id": CHAT_ID_ANDREA, "text": testo, "parse_mode": "Markdown"})
         requests.post(url, data={"chat_id": CHAT_ID_ANNA, "text": testo, "parse_mode": "Markdown"})
     
-    st.divider()
-
     # Form Streamlit
     #st.title("Contattaci 📩")
     with st.form("form_contatto"):
