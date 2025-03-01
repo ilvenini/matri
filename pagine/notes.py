@@ -32,15 +32,15 @@ def app():
         requests.post(url, data={"chat_id": CHAT_ID, "text": testo, "parse_mode": "Markdown"})
     
     # Form Streamlit
-    st.title("Contattaci! 📩")
+    st.title("Contattaci 📩")
     with st.form("form_contatto"):
-        nome = st.code("Nome", value=user_id, language="markdown")
+        #nome = st.text_input("Nome", value=user_id)
         messaggio = st.text_area("Messaggio")
         submit = st.form_submit_button("Invia")
     
     if submit:
         if nome and messaggio:
-            invia_telegram(nome, messaggio)
+            invia_telegram(user_id, messaggio)
             st.success("Messaggio inviato!")
         else:
             st.warning("Compila tutti i campi!")
