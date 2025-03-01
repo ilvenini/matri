@@ -7,10 +7,14 @@ def app():
     #st.write("## Matrimonio di Annamaria e Andrea")
     
     user_id = utils.get_query_params()
-    if user_id and user_id in USER_DATA:
-        st.write(USER_DATA[user_id]["text"], unsafe_allow_html=True)
-    else:
-        st.write(USER_DATA['all']["text"], unsafe_allow_html=True)
+
+    st.write(USER_DATA['all']["text1"], unsafe_allow_html=True)
+    
+    st.divider()
+
+    st.write(USER_DATA['all']["text2"], unsafe_allow_html=True)
+
+    st.divider()
 
     TOKEN = st.secrets["BOT_TOKEN"] # BotFather
     CHAT_ID_ANDREA = st.secrets["CHAT_ID_ANDREA"]
@@ -23,6 +27,8 @@ def app():
         requests.post(url, data={"chat_id": CHAT_ID_ANDREA, "text": testo, "parse_mode": "Markdown"})
         requests.post(url, data={"chat_id": CHAT_ID_ANNA, "text": testo, "parse_mode": "Markdown"})
     
+    st.divider()
+
     # Form Streamlit
     #st.title("Contattaci 📩")
     with st.form("form_contatto"):
@@ -41,9 +47,9 @@ def app():
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
-    "all": {"text": "Per permetterci di organizzare al meglio la festa, vi chiediamo di **confermare la vostra presenza entro il 15 maggio**!<br><br>\
-    Se avete **intolleranze, allergie alimentari o seguite una dieta vegetariana/vegana**, vi preghiamo di farcelo sapere, così da poter rendere la nostra tavola ancora più speciale per tutti.<br><br>\
-    La nostra casa è già arredata e piena d'amore. Tuttavia, se volete farci un dono gradito, preferiamo metterlo nel salvadanaio...<br>\
+    "all": {"text1": "Per permetterci di organizzare al meglio la festa, vi chiediamo di **confermare la vostra presenza entro il 15 maggio**!<br><br>\
+    Se avete **intolleranze, allergie alimentari o seguite una dieta vegetariana/vegana**, vi preghiamo di farcelo sapere, così da poter rendere la nostra tavola ancora più speciale per tutti.<br><br>"},
+    "all": {"text2": "La nostra casa è già arredata e piena d'amore. Tuttavia, se volete farci un dono gradito, preferiamo metterlo nel salvadanaio...<br>\
     iban: it93f0301503200000003641112"},
 }
 
