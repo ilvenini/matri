@@ -7,7 +7,7 @@ def app():
     #st.write("## Matrimonio di Annamaria e Andrea")
     user_id = utils.get_query_params()
 
-    st.image("img/comune.jpg", width="100%")
+    st.image("img/comune.jpg", width=450)
 
     st.write(USER_DATA['all']["text1"], unsafe_allow_html=True)
 
