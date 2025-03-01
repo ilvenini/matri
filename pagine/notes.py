@@ -20,7 +20,8 @@ def app():
     def invia_telegram(nome, messaggio):
         testo = f"📩 **Nuovo Messaggio!**\n👤 Nome: {nome}\n📝 Messaggio: {messaggio}"
         url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
-        requests.post(url, data={"chat_id": CHAT_ID, "text": testo, "parse_mode": "Markdown"})
+        requests.post(url, data={"chat_id": CHAT_ID_ANDREA, "text": testo, "parse_mode": "Markdown"})
+        requests.post(url, data={"chat_id": CHAT_ID_ANNA, "text": testo, "parse_mode": "Markdown"})
     
     # Form Streamlit
     #st.title("Contattaci 📩")
