@@ -32,7 +32,7 @@ def app():
         requests.post(url, data={"chat_id": CHAT_ID, "text": testo, "parse_mode": "Markdown"})
     
     # Form Streamlit
-    st.title("Contattaci 📩")
+    st.title("Contattaci! 📩")
     with st.form("form_contatto"):
         nome = st.code("Nome", value=user_id, language="markdown")
         messaggio = st.text_area("Messaggio")
