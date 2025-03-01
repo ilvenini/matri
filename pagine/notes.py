@@ -48,7 +48,7 @@ def app():
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
     "all": {"text1": "Per permetterci di organizzare al meglio la festa, vi chiediamo di **confermare la vostra presenza entro il 15 maggio**!<br><br>\
-            Se avete **intolleranze, allergie alimentari o seguite una dieta vegetariana/vegana**, vi preghiamo di farcelo sapere, così da poter rendere la nostra tavola ancora più speciale per tutti.<br><br>",
+            Se avete **intolleranze, allergie alimentari o seguite una dieta vegetariana/vegana**, vi preghiamo di farcelo sapere, così da poter rendere la nostra tavola ancora più speciale per tutti.",
             "text2": "La nostra casa è già arredata e piena d'amore. Tuttavia, se volete farci un dono gradito, preferiamo metterlo nel salvadanaio...<br>\
             iban: it93f0301503200000003641112"},
 }
