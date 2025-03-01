@@ -1,6 +1,4 @@
 import streamlit as st
-from streamlit_folium import folium_static
-import folium
 from modules import utils
 
 # Funzione per ottenere il parametro "id" dall'URL
@@ -8,7 +6,6 @@ def get_query_params():
     query_params = st.query_params
     return query_params.get("id", None)
 
-# Pagina 1: Personalizzata per ogni utente
 def app():
     utils.set_font("Delius Swash Caps")
     #st.image("savethedate.png")

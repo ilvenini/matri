@@ -2,17 +2,11 @@ import streamlit as st
 from modules import utils
 import requests
     
-# Pagina 1: Personalizzata per ogni utente
-def app():
-    set_font("Delius Swash Caps")
-
-
 # Funzione per ottenere il parametro "id" dall'URL
 def get_query_params():
     query_params = st.query_params
     return query_params.get("id", None)
 
-# Pagina 1: Personalizzata per ogni utente
 def app():
     utils.set_font("Delius Swash Caps")
     #st.write("## Matrimonio di Annamaria e Andrea")
@@ -32,7 +26,7 @@ def app():
         requests.post(url, data={"chat_id": CHAT_ID, "text": testo, "parse_mode": "Markdown"})
     
     # Form Streamlit
-    st.title("Contattaci 📩")
+    #st.title("Contattaci 📩")
     with st.form("form_contatto"):
         #nome = st.text_input("Nome", value=user_id)
         messaggio = st.text_area("Messaggio")
@@ -42,9 +36,9 @@ def app():
         #if nome and messaggio:
         if messaggio:
             invia_telegram(user_id, messaggio)
-            st.success("Messaggio inviato!")
+            st.success("Messaggio inviato")
         else:
-            st.warning("Compila tutti i campi!")
+            st.warning("Messaggio vuoto")
 
     
 # Dizionario con messaggi e immagini personalizzate
