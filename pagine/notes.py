@@ -37,7 +37,7 @@ def app():
 USER_DATA = {
     "all": {"text1": "Per permetterci di organizzare al meglio la festa, vi chiediamo di **confermare la vostra presenza entro il 15 maggio**!<br><br>\
             Se avete **intolleranze, allergie alimentari o seguite una dieta vegetariana/vegana**, vi preghiamo di farcelo sapere.",
-            "text2": "La nostra casa è già arredata e sufficientemente disordinata. Tuttavia, se volete farci un dono gradito, preferiamo metterlo nel salvadanaio.<br>\
+            "text2": "La nostra casa è già arredata e sufficientemente disordinata. Tuttavia, se volete farci un dono gradito, preferiamo metterlo nel salvadanaio.<br><br>\
             iban: it93f0301503200000003641112"},
 }
 
