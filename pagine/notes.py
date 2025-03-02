@@ -1,6 +1,5 @@
 import streamlit as st
 from modules import utils
-import requests
     
 def app():
     utils.set_font("Delius Swash Caps")
