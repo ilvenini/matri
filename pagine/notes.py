@@ -8,6 +8,8 @@ def app():
     
     user_id = utils.get_query_params()
 
+    st.title("Conferma di partecipazione")
+
     st.write(USER_DATA['all']["text1"], unsafe_allow_html=True)
 
     TOKEN = st.secrets["BOT_TOKEN"] # BotFather
