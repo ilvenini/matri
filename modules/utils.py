@@ -1,4 +1,5 @@
 import streamlit as st
+import requests
 
 TOKEN = st.secrets["BOT_TOKEN"] # BotFather
 CHAT_ID_ANDREA = st.secrets["CHAT_ID_ANDREA"]
