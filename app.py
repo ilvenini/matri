@@ -7,6 +7,10 @@ from pagine import home
 from pagine import location
 from pagine import notes
 
+st.set_page_config(
+        page_title="Matrimonio di Annamaria e Andrea",
+)
+
 # Menu di navigazione
 PAGES = {
     "🏠 Ciao!": home,
