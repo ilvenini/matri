@@ -10,10 +10,10 @@ def set_font(font_name):
             * {{
                 font-family: '{font_name}', sans-serif;
             }}
-            h1 {{ font-family: '{font_name}', sans-serif !important; font-size: 36px !important; }}
-            h2 {{ font-family: '{font_name}', sans-serif !important; font-size: 30px !important; }}
-            h3 {{ font-family: '{font_name}', sans-serif !important; font-size: 26px !important; }}
-            p  {{ font-family: '{font_name}', sans-serif !important; font-size: 20px !important; }}
+            h1 {{ font-family: '{font_name}', sans-serif !important; font-size: 24px !important; }}
+            h2 {{ font-family: '{font_name}', sans-serif !important; font-size: 22px !important; }}
+            h3 {{ font-family: '{font_name}', sans-serif !important; font-size: 20px !important; }}
+            p  {{ font-family: '{font_name}', sans-serif !important; font-size: 18px !important; }}
         </style>
     """, unsafe_allow_html=True)
 

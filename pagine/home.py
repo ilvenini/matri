@@ -6,7 +6,7 @@ from modules import utils
 def app():
     utils.set_font("Delius Swash Caps")
     st.image("img/savethedate.png")
-    #st.write("## Matrimonio di Annamaria e Andrea")
+    st.title("Matteo e Leonardo annunciano il matrimonio di mamma e papà!")
 
     
     user_id = utils.get_query_params()
