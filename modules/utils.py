@@ -1,5 +1,8 @@
 import streamlit as st
 
+TOKEN = st.secrets["BOT_TOKEN"] # BotFather
+CHAT_ID_ANDREA = st.secrets["CHAT_ID_ANDREA"]
+CHAT_ID_ANNA = st.secrets["CHAT_ID_ANNA"]    
 
 # Funzione per caricare il CSS con font personalizzati
 def set_font(font_name):

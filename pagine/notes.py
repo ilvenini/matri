@@ -11,10 +11,6 @@ def app():
     st.title("Conferma di partecipazione")
 
     st.write(USER_DATA['all']["text1"], unsafe_allow_html=True)
-
-    TOKEN = st.secrets["BOT_TOKEN"] # BotFather
-    CHAT_ID_ANDREA = st.secrets["CHAT_ID_ANDREA"]
-    CHAT_ID_ANNA = st.secrets["CHAT_ID_ANNA"]    
     
     # Form Streamlit
     #st.title("Contattaci 📩")
