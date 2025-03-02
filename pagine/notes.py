@@ -9,21 +9,10 @@ def app():
     user_id = utils.get_query_params()
 
     st.write(USER_DATA['all']["text1"], unsafe_allow_html=True)
-    
-    st.divider()
-
-    st.write(USER_DATA['all']["text2"], unsafe_allow_html=True)
 
     TOKEN = st.secrets["BOT_TOKEN"] # BotFather
     CHAT_ID_ANDREA = st.secrets["CHAT_ID_ANDREA"]
-    CHAT_ID_ANNA = st.secrets["CHAT_ID_ANNA"]
-    
-    
-    def invia_telegram(nome, messaggio):
-        testo = f"📩 **Nuovo Messaggio!**\n👤 Nome: {nome}\n📝 Messaggio: {messaggio}"
-        url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
-        requests.post(url, data={"chat_id": CHAT_ID_ANDREA, "text": testo, "parse_mode": "Markdown"})
-        requests.post(url, data={"chat_id": CHAT_ID_ANNA, "text": testo, "parse_mode": "Markdown"})
+    CHAT_ID_ANNA = st.secrets["CHAT_ID_ANNA"]    
     
     # Form Streamlit
     #st.title("Contattaci 📩")
@@ -35,17 +24,20 @@ def app():
     if submit:
         #if nome and messaggio:
         if messaggio:
-            invia_telegram(user_id, messaggio)
+            utils.invia_telegram(user_id, messaggio)
             st.success("Messaggio inviato, grazie!")
         else:
             st.warning("Messaggio vuoto")
 
+    st.divider()
+
+    st.write(USER_DATA['all']["text2"], unsafe_allow_html=True)
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
     "all": {"text1": "Per permetterci di organizzare al meglio la festa, vi chiediamo di **confermare la vostra presenza entro il 15 maggio**!<br><br>\
-            Se avete **intolleranze, allergie alimentari o seguite una dieta vegetariana/vegana**, vi preghiamo di farcelo sapere, così da poter rendere la nostra tavola ancora più speciale per tutti.",
-            "text2": "La nostra casa è già arredata e piena d'amore. Tuttavia, se volete farci un dono gradito, preferiamo metterlo nel salvadanaio...<br>\
+            Se avete **intolleranze, allergie alimentari o seguite una dieta vegetariana/vegana**, vi preghiamo di farcelo sapere.",
+            "text2": "La nostra casa è già arredata e sufficientemente disordinata. Tuttavia, se volete farci un dono gradito, preferiamo metterlo nel salvadanaio.<br>\
             iban: it93f0301503200000003641112"},
 }
 

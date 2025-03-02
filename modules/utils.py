@@ -23,3 +23,10 @@ def get_query_params():
     query_params = st.query_params
     return query_params.get("id", None)
 
+
+# Funzione per contatto
+def invia_telegram(nome, messaggio):
+    testo = f"📩 **Nuovo Messaggio!**\n👤 Nome: {nome}\n📝 Messaggio: {messaggio}"
+    url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+    requests.post(url, data={"chat_id": CHAT_ID_ANDREA, "text": testo, "parse_mode": "Markdown"})
+    requests.post(url, data={"chat_id": CHAT_ID_ANNA, "text": testo, "parse_mode": "Markdown"}) 
