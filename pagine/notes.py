@@ -15,7 +15,7 @@ def app():
     #st.title("Contattaci 📩")
     with st.form("form_contatto"):
         #nome = st.text_input("Nome", value=user_id)
-        messaggio = st.text_area("Puoi confermare qui")
+        messaggio = st.text_area("Scrivere qui per conferma")
         submit = st.form_submit_button("Invia")
     
     if submit:
@@ -32,9 +32,9 @@ def app():
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
-    "all": {"text1": "Per permetterci di organizzare al meglio la festa, vi chiediamo di **confermare la vostra presenza entro il 15 maggio**!<br><br>\
-            Se avete **intolleranze, allergie alimentari o seguite una dieta vegetariana/vegana**, vi preghiamo di farcelo sapere.",
-            "text2": "La nostra casa è già arredata e sufficientemente disordinata.<br>Tuttavia, se volete farci un dono gradito, preferiamo metterlo nel salvadanaio.<br><br>\
-            iban: it93f0301503200000003641112"},
+    "all": {"text1": "Per permetterci di organizzare al meglio la festa, si chiede di **confermare la presenza entro il 15 maggio**!<br><br>\
+            In caso di **intolleranze, allergie alimentari o si segua una dieta vegetariana/vegana**, si prega di farcelo sapere.",
+            "text2": "La nostra casa è già arredata e sufficientemente disordinata.<br>Tuttavia, se si desidera farci un dono gradito, preferiamo metterlo nel salvadanaio.<br><br>\
+            iban: it93f0301503200000003641112 c/o Banca Fineco"},
 }
 
