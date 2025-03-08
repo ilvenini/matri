@@ -15,6 +15,8 @@ def app():
     else:
         st.warning("ID mancante!")
 
+    st.image("img/savethedate_basso.png")
+
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {

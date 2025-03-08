@@ -7,6 +7,8 @@ def app():
     
     user_id = utils.get_query_params()
 
+    st.image("img/savethedate_alto.png")
+
     st.title("Conferma di partecipazione")
 
     st.write(USER_DATA['all']["text1"], unsafe_allow_html=True)
@@ -29,6 +31,8 @@ def app():
     st.divider()
 
     st.write(USER_DATA['all']["text2"], unsafe_allow_html=True)
+
+    st.image("img/savethedate_basso.png")
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {

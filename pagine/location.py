@@ -6,6 +6,7 @@ def app():
     #st.image("savethedate.png")
     #st.write("## Matrimonio di Annamaria e Andrea")
     user_id = utils.get_query_params()
+    st.image("img/savethedate_alto.png")
 
     st.title("Dove celebreremo e dove festeggeremo")
 
@@ -43,6 +44,8 @@ def app():
         """,
         unsafe_allow_html=True
     )
+
+    st.image("img/savethedate_basso.png")
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
