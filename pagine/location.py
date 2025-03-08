@@ -11,9 +11,9 @@ def app():
 
     st.write(USER_DATA['all']["text1"], unsafe_allow_html=True)
 
-    st.image("img/comune.jpg", width=1000)
+    st.image("img/teatro.png", width=1000)
 
-    maps_url1 = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2791.6066051683956!2d10.062547311053198!3d45.59845250148086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47816fef53b5a2a9%3A0x23d07dd3c0e21666!2sPiazza%20Europa%2C%2016%2C%2025050%20Passirano%20BS!5e0!3m2!1sen!2sit!4v1740904151382!5m2!1sen!2sit"
+    maps_url1 = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12123.860374426948!2d10.058770042726522!3d45.59958349907525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47816fef608b8eb5%3A0x77bdaf684b13c242!2sTeatro%20Civico!5e0!3m2!1sen!2sit!4v1741435496629!5m2!1sen!2sit"
 
     # Iframe responsive con larghezza dinamica
     st.markdown(
@@ -46,8 +46,8 @@ def app():
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
-    "all": {"text1": "La cerimonia si terrà nella sala civica del **Comune di Passirano** alle ore **11.30**.<br>",
+    "all": {"text1": "La cerimonia si terrà alle ore **11.00** nel **Teatro Civico di Passirano**, di fronte alla piazza principale del paese, in via Garibaldi, 5.<br>",
             "text2": "A seguire, per il ricevimento, ci sposteremo nell'incantevole cantina **Bersi Serlini**, situata nel cuore della Franciacorta a **Provaglio d\'Iseo** (BS).",
-           "text3": "I festeggiamenti inizieranno alle ore **12.30** e dureranno fino alle ore **20.30**.",
+            "text3": "I festeggiamenti inizieranno alle ore **12.30** e dureranno fino alle ore **20.30**.",
 }
 }
