@@ -13,7 +13,7 @@ def app():
     if user_id and user_id in USER_DATA:
         st.write(USER_DATA[user_id]["text"], unsafe_allow_html=True)
     else:
-        st.warning("ID non valido o mancante. Contatta l'amministratore.")
+        st.warning("ID mancante!")
 
 
 # Dizionario con messaggi e immagini personalizzate
