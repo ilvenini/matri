@@ -45,7 +45,6 @@ def app():
         unsafe_allow_html=True
     )
 
-    st.image("img/savethedate_basso.png")
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
