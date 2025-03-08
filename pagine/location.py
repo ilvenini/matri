@@ -2,7 +2,7 @@ import streamlit as st
 from modules import utils
 
 def app():
-    utils.set_font("Delius Swash Caps")
+    utils.set_font("Crimson Text")
     #st.image("savethedate.png")
     #st.write("## Matrimonio di Annamaria e Andrea")
     user_id = utils.get_query_params()
