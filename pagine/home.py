@@ -127,4 +127,5 @@ USER_DATA = {
     Dopo i sì” ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve! \
     Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
     Vi aspettiamo!"},
+    
 }
