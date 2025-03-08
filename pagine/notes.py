@@ -15,7 +15,7 @@ def app():
     #st.title("Contattaci 📩")
     with st.form("form_contatto"):
         #nome = st.text_input("Nome", value=user_id)
-        messaggio = st.text_area("Scrivici un messaggio!")
+        messaggio = st.text_area("Puoi confermare qui")
         submit = st.form_submit_button("Invia")
     
     if submit:

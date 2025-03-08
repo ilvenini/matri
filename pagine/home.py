@@ -20,109 +20,295 @@ def app():
 USER_DATA = {
     "renny": {"text": ""},
 
-    "michele": {"text": ""},
+    "michele": {"text": "...**ci sposiamo**!<br><br> Cari Michele e Laura, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "daniele": {"text": ""},
+    "daniele": {"text": "...**ci sposiamo**!<br><br> Ciao Daniele, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "stefano": {"text": ""},
+    "stefano": {"text": "...**ci sposiamo**!<br><br> Cari Stefano, Jean e bimbi, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "mauro": {"text": ""},
+    "mauro": {"text": "...**ci sposiamo**!<br><br> Cari Mauro e Valeria, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "ziodaniele": {"text": ""},
+    "ziodaniele": {"text": "...**ci sposiamo**!<br><br> Cari zii, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "ziorenato": {"text": ""},
+    "ziorenato": {"text": "...**ci sposiamo**!<br><br> Cari zio Renato, zia Laura e Rossella, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "ziavirgi": {"text": ""},
+    "ziavirgi": {"text": "...**ci sposiamo**!<br><br> Cari zii Virgi e Gian, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "zioandrea": {"text": ""},
+    "zioandrea": {"text": "...**ci sposiamo**!<br><br> Caro zio Andrea, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "claudia": {"text": ""},
+    "claudia": {"text": "...**ci sposiamo**!<br><br> Cari Claudia, Max e ragazzi, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "marco": {"text": ""},
+    "marco": {"text": "...**ci sposiamo**!<br><br> Cari Marco, Egle e bimbi, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "michela": {"text": ""},
+    "michela": {"text": "...**ci sposiamo**!<br><br> Cari Michela ed Alessandro, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "ziafranca": {"text": ""},
+    "ziafranca": {"text": "...**ci sposiamo**!<br><br> Cari zii Franca e Gabri, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "ziagio": {"text": ""},
+    "ziagio": {"text": "...**ci sposiamo**!<br><br> Cara Gio, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "chiara": {"text": ""},
+    "chiara": {"text": "...**ci sposiamo**!<br><br> Cari Chiara, Marco e bimbi, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "silvia": {"text": ""},
+    "silvia": {"text": "...**ci sposiamo**!<br><br> Cari Silvia, Marco e ragazze, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "ziagianna": {"text": ""},
+    "ziagianna": {"text": "...**ci sposiamo**!<br><br> Cari zii Gianna e Bruno, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "manu": {"text": ""},
+    "manu": {"text": "...**ci sposiamo**!<br><br> Cari Manu, Elisa e bimbi, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "piera": {"text": ""},
+    "piera": {"text": "...**ci sposiamo**!<br><br> Cara mamma/nonna Piera, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "vincenzo": {"text": ""},
+    "vincenzo": {"text": "...**ci sposiamo**!<br><br> Caro Vincinsì, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "rita": {"text": ""},
+    "rita": {"text": "...**ci sposiamo**!<br><br> Caro zia Rita, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "marcofederica": {"text": ""},
+    "marcofederica": {"text": "...**ci sposiamo**!<br><br> Cari Marco, Federica e Irene, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "campa": {"text": ""},
+    "campa": {"text": "...**ci sposiamo**!<br><br> Cari Luca, Bea e bimbi, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "zione": {"text": "Ciao **Zione bello!**<br><br>\
-    Come sai, **domenica 15 giugno** sarà un giorno molto importante per me e Anna, e tu avrai un ruolo centrale, visto che avrai l'onore e l'onere di **celebrare** e **arringare**!<br><br>\
-    Nel resto del sito abbiamo inserito le informazioni generiche riguardo location e orario del ricevimento, dove ci raggiungerà gran parte degli invitati.<br><br>\
-    tuttavia, noi ti aspettiamo al **Comune di Passirano** per la cerimonia, che si svolgerà alle **ore 11.00**.<br><br>\
-    Purtroppo, la sala può ospitare circa **20-25 persone**, per cui sarà una cosa molto intima.<br><br>\
-    Dopodichè, alle ore **12.30** ci sposteremo nella Cantina Bersi Serlini a **Provaglio d\'Iseo**, dove ci sarà da mangiare, bere e festeggiare in abbondanza fino alle ore **21.00**.<br><br>\
-    Non vediamo l'ora di goderci la bellissima giornata con te e famiglia!"},
+    "zione": {"text": "...**ci sposiamo**!<br><br> Caro zione, Marsi e bimbi, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
     
-    "snikuz": {"text": ""},
+    "snikuz": {"text": "...**ci sposiamo**!<br><br> Cara Zia Nico, Aga ed Ettore, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "mura": {"text": ""},
+    "mura": {"text": "...**ci sposiamo**!<br><br> Ciao Mura, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "flavietta": {"text": ""},
+    "flavietta": {"text": "...**ci sposiamo**!<br><br> Care Flavietta e Luna, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "penela": {"text": ""},
+    "penela": {"text": "...**ci sposiamo**!<br><br> Ciao Pennet, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "pita": {"text": ""},
+    "pita": {"text": "...**ci sposiamo**!<br><br> Ciao Pita, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "michelino": {"text": ""},
+    "michelino": {"text": "...**ci sposiamo**!<br><br> Ciao Michi, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "frenz": {"text": ""},
+    "frenz": {"text": "...**ci sposiamo**!<br><br> Ciao Frenz, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "cischi": {"text": ""},
+    "cischi": {"text": "...**ci sposiamo**!<br><br> Ciao Francesco, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "paletti": {"text": ""},
+    "paletti": {"text": "...**ci sposiamo**!<br><br> Ciao Palettissimo, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "berto": {"text": ""},
+    "berto": {"text": "...**ci sposiamo**!<br><br> Cari Berto ed Angela, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "stofen": {"text": ""},
+    "stofen": {"text": "...**ci sposiamo**!<br><br> Cari Stofen, Milena e Samuel, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "naldo": {"text": ""},
+    "naldo": {"text": "...**ci sposiamo**!<br><br> Ciao Naldo, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "ziotaffo": {"text": ""},
+    "ziotaffo": {"text": "...**ci sposiamo**!<br><br> Ciao Zio Taffo, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "stesisti": {"text": ""},
+    "stesisti": {"text": "...**ci sposiamo**!<br><br> Cari Stefano e Laura, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "danilo": {"text": ""},
+    "danilo": {"text": "...**ci sposiamo**!<br><br> Ciao Danilo, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "flavio": {"text": ""},
+    "flavio": {"text": "...**ci sposiamo**!<br><br> Ciao Flavio, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "paolo": {"text": ""},
+    "paolo": {"text": "...**ci sposiamo**!<br><br> Ciao Paolo, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "diego": {"text": ""},
+    "diego": {"text": "...**ci sposiamo**!<br><br> Ciao Diego, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "jessy": {"text": ""},
+    "jessy": {"text": "...**ci sposiamo**!<br><br> Cari Jessy, Michael e Ruby, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "cri": {"text": ""},
+    "cry": {"text": "...**ci sposiamo**!<br><br> Cari Cry ed Enry, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
-    "andre": {"text": ""},
+    "andre": {"text": "...**ci sposiamo**!<br><br> Ciao Andre, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "lucia": {"text": ""},
+    "lucy": {"text": "...**ci sposiamo**!<br><br> Ciao Lucy, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "martina": {"text": ""},
+    "marti": {"text": "...**ci sposiamo**!<br><br> Ciao Marti, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "ylenia": {"text": ""},
+    "ile": {"text": "...**ci sposiamo**!<br><br> Ciao Ile, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "francesca": {"text": ""},
+    "fra": {"text": "...**ci sposiamo**!<br><br> Ciao Fra, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
+    Ti aspettiamo!"},
 
-    "prova": {"text": "...**ci sposiamo**!<br><br> Cari Michele e Laura, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    "standard": {"text": "...**ci sposiamo**!<br><br> Cari xxx, l’appuntamento è per il **15 giugno 2025**.<br><br>\
     Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
     Dopo i sì” ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
     Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
