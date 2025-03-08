@@ -6,26 +6,6 @@ from modules import utils
 def app():
     utils.set_font("Crimson Text")
 
-    st.markdown(
-    """
-    <style>
-        [data-testid="stSidebarNavToggle"] button {
-            visibility: hidden;
-        }
-        [data-testid="stSidebarNavToggle"]::before {
-            content: "🔍"; /* Sostituisci con qualsiasi icona Unicode o CSS */
-            font-size: 24px;
-            cursor: pointer;
-            display: block;
-            position: absolute;
-            top: 16px;
-            left: 16px;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-    )
-
     st.image("img/savethedate_home.png")
     st.title("Abbiamo provato a rimandarlo, ma...")
 
