@@ -23,5 +23,5 @@ PAGES = {
 selection = st.sidebar.selectbox(" ", list(PAGES.keys()))
 
 page = PAGES[selection]  # Esegue la pagina selezionata
-page.app()
+home.app()
 
