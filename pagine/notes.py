@@ -32,12 +32,22 @@ def app():
 
     st.write(USER_DATA['all']["text2"], unsafe_allow_html=True)
 
+    custom_text = """
+    <style>
+        .custom-font {
+            font-family: 'Courier New', monospace;
+            font-size: 24px;
+            color: red;
+        }
+    </style>
+    <p class="custom-font">IBAN: IT93F0301503200000003641112 c/o Banca Fineco</p>
+"""
+
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
     "all": {"text1": "Per permetterci di organizzare al meglio la festa, si chiede di **confermare la presenza entro il 15 maggio**!<br><br>\
             In caso di **intolleranze, allergie alimentari o si segua una dieta vegetariana/vegana**, si prega di farcelo sapere.",
-            "text2": "La nostra casa è già arredata e sufficientemente disordinata.<br>Tuttavia, se si desidera farci un dono gradito, preferiamo metterlo nel salvadanaio.<br><br>\
-            iban: it93f0301503200000003641112 c/o Banca Fineco"},
+            "text2": "La nostra casa è già arredata e sufficientemente disordinata.<br>Tuttavia, se si desidera farci un dono gradito, preferiamo metterlo nel salvadanaio.<br><br>"},
 }
 
