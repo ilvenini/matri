@@ -2,7 +2,7 @@ import streamlit as st
 from modules import utils
     
 def app():
-    utils.set_font("Crimson Text")
+    utils.set_font("Delius Swash Caps")
     #st.write("## Matrimonio di Annamaria e Andrea")
     
     user_id = utils.get_query_params()
@@ -37,6 +37,7 @@ def app():
 USER_DATA = {
     "all": {"text1": "Per permetterci di organizzare al meglio la festa, si chiede di **confermare la presenza entro il 15 maggio**!<br><br>\
             In caso di **intolleranze, allergie alimentari o si segua una dieta vegetariana/vegana**, si prega di farcelo sapere.",
-            "text2": "La nostra casa è già arredata e sufficientemente disordinata.<br>Tuttavia, se si desidera farci un dono gradito, preferiamo metterlo nel salvadanaio.<br><br>"},
+            "text2": "La nostra casa è già arredata e sufficientemente disordinata.<br>Tuttavia, se si desidera farci un dono gradito, preferiamo metterlo nel salvadanaio.<br><br>\
+            IBAN: IT93F0301503200000003641112 c/o Banca Fineco"},
 }
 
