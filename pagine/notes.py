@@ -2,7 +2,7 @@ import streamlit as st
 from modules import utils
     
 def app():
-    utils.set_font("Delius Swash Caps")
+    utils.set_font("Crimson Text")
     #st.write("## Matrimonio di Annamaria e Andrea")
     
     user_id = utils.get_query_params()
@@ -31,18 +31,6 @@ def app():
     st.divider()
 
     st.write(USER_DATA['all']["text2"], unsafe_allow_html=True)
-
-    custom_text = """
-    <style>
-        .custom-font {
-            font-family: 'Courier New', monospace;
-            font-size: 24px;
-            color: red;
-        }
-    </style>
-    <p class="custom-font">IBAN: IT93F0301503200000003641112 c/o Banca Fineco</p>
-    """
-    st.markdown(custom_text, unsafe_allow_html=True)
 
 
 # Dizionario con messaggi e immagini personalizzate
