@@ -5,7 +5,7 @@ from modules import utils
 # Pagina 1: Personalizzata per ogni utente
 def app():
     utils.set_font("Delius Swash Caps")
-    st.image("img/savethedate.png")
+    st.image("img/savethedate_alto.png")
     st.title("Abbiamo provato a rimandarlo, ma...")
 
     
