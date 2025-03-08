@@ -18,7 +18,11 @@ def app():
 
 # Dizionario con messaggi e immagini personalizzate
 USER_DATA = {
-    "renny": {"text": ""},
+    "renny": {"text": "...**ci sposiamo**!<br><br> Cari Renato e Margherita, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 
     "michele": {"text": "...**ci sposiamo**!<br><br> Cari Michele e Laura, l’appuntamento è per il **15 giugno 2025**.<br><br>\
     Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
@@ -110,6 +114,12 @@ USER_DATA = {
     Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
     Vi aspettiamo!"},
 
+    "silvio": {"text": "...**ci sposiamo**!<br><br> Cari Silvio e Susanna, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
+
     "ziagianna": {"text": "...**ci sposiamo**!<br><br> Cari zii Gianna e Bruno, l’appuntamento è per il **15 giugno 2025**.<br><br>\
     Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
     Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
@@ -134,7 +144,7 @@ USER_DATA = {
     Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
     Ti aspettiamo!"},
 
-    "rita": {"text": "...**ci sposiamo**!<br><br> Caro zia Rita, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    "rita": {"text": "...**ci sposiamo**!<br><br> Caro zia e zia bis Rita, l’appuntamento è per il **15 giugno 2025**.<br><br>\
     Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
     Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
     Nelle prossime pagine trovi qualche dettaglio in più.<br><br>\
