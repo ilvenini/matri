@@ -122,12 +122,9 @@ USER_DATA = {
 
     "francesca": {"text": ""},
 
-    
-    "xxxxx": {"text": "Cari Michele e Laura,<br>\
-    Siamo felici di invitarvi al nostro matrimonio!<br><br>\
-    Ci sposeremo il **15 giugno 2025** e non vediamo l’ora di festeggiare.<br><br>\
-    Il rito civile sarà celebrato alle **11:00** presso il **Comune di Passirano**.<br>\
-    Dopo la cerimonia, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo**, dove brinderemo e festeggeremo insieme questa giornata speciale.<br>\
-    Speriamo di avervi con noi!<br><br>\
-    Nelle altre pagine trovate qualche info in più."},
+    "prova": {"text": "...**ci sposiamo**!<br> Cari Michele e Laura, l’appuntamento è per il **15 giugno 2025**.<br>\
+    Alle **11:00** ci troverete (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br>\
+    Dopo i sì” ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve! \
+    Nelle prossime pagine trovate qualche dettaglio in più.<br><br>\
+    Vi aspettiamo!"},
 }
