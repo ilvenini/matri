@@ -12,7 +12,7 @@ def app():
     st.write(USER_DATA['all']["text1"], unsafe_allow_html=True)
 
     st.image("img/teatro.png", width=1000)
-
+    
     maps_url1 = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12123.860374426948!2d10.058770042726522!3d45.59958349907525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47816fef608b8eb5%3A0x77bdaf684b13c242!2sTeatro%20Civico!5e0!3m2!1sen!2sit!4v1741435496629!5m2!1sen!2sit"
 
     # Iframe responsive con larghezza dinamica
