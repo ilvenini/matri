@@ -41,7 +41,8 @@ def app():
         }
     </style>
     <p class="custom-font">IBAN: IT93F0301503200000003641112 c/o Banca Fineco</p>
-"""
+    """
+    st.markdown(custom_text, unsafe_allow_html=True)
 
 
 # Dizionario con messaggi e immagini personalizzate
