@@ -19,9 +19,9 @@ def app():
 
 
 
+    st.divider()
 
-
-    st.title("Dove celebreremo e dove festeggeremo")
+    st.title("Dove celebreremo")
 
     st.write(USER_DATA['all']["text1"], unsafe_allow_html=True)
 
@@ -39,6 +39,8 @@ def app():
 
     #st.image("img/bersi1.png")
     st.divider()
+
+    st.title("Dove festeggeremo")
 
     st.write(USER_DATA['all']["text2"], unsafe_allow_html=True)
 
@@ -58,7 +60,7 @@ def app():
         unsafe_allow_html=True
     )
 
-
+    st.divider()
 
     st.title("Conferma di partecipazione")
 
@@ -82,14 +84,6 @@ def app():
     st.divider()
 
     st.write(USER_DATA['all']["text6"], unsafe_allow_html=True)
-
-
-
-
-
-
-
-
 
 
 
