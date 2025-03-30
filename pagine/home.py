@@ -269,6 +269,23 @@ USER_DATA = {
 \
     Ti aspettiamo!"},
 
+    "fik": {"text": "...**ci sposiamo**!<br><br> Ciao Andrea, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+\
+    Ti aspettiamo!"},
+    "fra": {"text": "...**ci sposiamo**!<br><br> Ciao Fra, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+\
+    Ti aspettiamo!"},
+    
+    "fra": {"text": "...**ci sposiamo**!<br><br> Ciao Fra, l’appuntamento è per il **15 giugno 2025**.<br><br>\
+    Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
+    Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
+\
+    Ti aspettiamo!"},
+
     "paletti": {"text": "...**ci sposiamo**!<br><br> Ciao Palettissimo, l’appuntamento è per il **15 giugno 2025**.<br><br>\
     Alle **11:00** ci troverai (emozionati e un po’ agitati) al **Teatro Civico di Passirano** per la cerimonia civile.<br><br>\
     Dopo i sì ufficiali, ci sposteremo alla cantina **Bersi Serlini di Provaglio d'Iseo** per festeggiare come si deve!<br><br> \
